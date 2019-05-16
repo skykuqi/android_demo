@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/main_on"
+    android:padding="10dp">
+
+    <Button android:id="@+id/recycler_button_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="列 表 视 图 - 垂 直"
+        android:textSize="25sp"
+        android:background="@drawable/list_item_selector"/>
+    <Button android:id="@+id/recycler_button_list_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="列 表 视 图 - 水 平"
+        android:textSize="25sp"
+        android:background="@drawable/list_item_selector"/>
+    <Button android:id="@+id/recycler_button_grid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="网 格 视 图"
+        android:textSize="25sp"
+        android:background="@drawable/list_item_selector"/>
+    <Button android:id="@+id/recycler_button_falls"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="瀑 布 流"
+        android:textSize="25sp"
+        android:background="@drawable/list_item_selector"/>
+</LinearLayout>

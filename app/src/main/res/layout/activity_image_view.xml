@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_on">
+    <!--android:src="@drawable/imageview"   设置选择图片
+    android:scaleType="fitXY"   设置图片铺满方式 fitXY充满,图片有可能会拉伸
+    fitCenter       保持宽高比,直至能够完全显示
+    centerCrop  保持宽高比缩放,直至完全覆盖空间,裁剪显示
+    -->
+    <ImageView  android:id="@+id/image_imageview_1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="#8ab4ecc1"
+        android:src="@drawable/imageview"
+        android:scaleType="centerCrop"/>
+
+    <ImageView  android:id="@+id/image_imageview_2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="#8ab4ecc1"
+        android:layout_below="@id/image_imageview_1"
+        android:layout_marginTop="15dp"
+        android:scaleType="centerCrop"/>
+</RelativeLayout>

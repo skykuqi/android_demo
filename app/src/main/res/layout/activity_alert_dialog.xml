@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/main_on">
+    <Button
+        android:id="@+id/alert_dialog_button_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/main_button_selector"
+        android:layout_marginTop="15dp"
+        android:textSize="25sp"
+        android:text="Alert Dialog 1"
+        android:textAllCaps="false"/>
+    <Button
+        android:id="@+id/alert_dialog_button_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/main_button_selector"
+        android:layout_marginTop="15dp"
+        android:textSize="25sp"
+        android:text="Alert Dialog 2"
+        android:textAllCaps="false"/>
+    <Button
+        android:id="@+id/alert_dialog_button_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/main_button_selector"
+        android:layout_marginTop="15dp"
+        android:textSize="25sp"
+        android:text="Alert Dialog 3"
+        android:textAllCaps="false"/>
+    <Button
+        android:id="@+id/alert_dialog_button_4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/main_button_selector"
+        android:layout_marginTop="15dp"
+        android:textSize="25sp"
+        android:text="Alert Dialog 4"
+        android:textAllCaps="false"/>
+    <Button
+        android:id="@+id/alert_dialog_button_5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/main_button_selector"
+        android:layout_marginTop="15dp"
+        android:textSize="25sp"
+        android:text="Alert Dialog 5"
+        android:textAllCaps="false"/>
+
+</LinearLayout>

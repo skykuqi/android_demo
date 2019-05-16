@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_on"
+    android:orientation="vertical"
+    tools:context="com.sky.myapplication.shared.SharedActivity"
+    android:paddingTop="15dp"
+    android:paddingBottom="15dp">
+    <Button
+        android:id="@+id/shared_button_sharedpreferences"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:textAllCaps="false"
+        android:text="SharedPreferences"
+        android:background="@drawable/main_button_selector"/>
+
+    <Button
+        android:id="@+id/shared_button_file"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:textAllCaps="false"
+        android:text="File"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/main_button_selector"/>
+
+</LinearLayout>

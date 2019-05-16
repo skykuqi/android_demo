@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-rotate xmlns:android="http://schemas.android.com/apk/res/android"
+    android:drawable="@drawable/loading"
+    android:pivotX="50%"
+    android:pivotY="50%">
+<!--android:pivotX="50%"
+    android:pivotY="50%"    确定图片的旋转中心,X,Y轴的旋转中心为中间-->
+</animated-rotate>

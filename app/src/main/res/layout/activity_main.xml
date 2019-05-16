@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_on">
+
+    <TextView
+        android:id="@+id/text_on"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="50dp"
+        android:gravity="center_horizontal"
+        android:text="@string/text_on"
+        android:textSize="30sp" />
+
+
+    <!--android:hint="请输入您的用户名" 设置默认提示属性-->
+    <EditText
+        android:id="@+id/edit_account"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/text_on"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="0dp"
+        android:background="@drawable/main_edit_shape"
+        android:hint="@string/edit_account_hint"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:textSize="20sp"
+        android:maxLines="1"/>
+    <!--android:inputType="textPassword" 设置为暗文显示-->
+
+    <EditText
+        android:id="@+id/edit_password"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/edit_account"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/main_edit_shape"
+        android:hint="@string/edit_password_hint"
+        android:inputType="textPassword"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:textSize="20sp"
+        android:maxLines="1"/>
+    <Button
+        android:id="@+id/button_on"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@id/edit_password"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/main_button_selector"
+        android:gravity="center"
+        android:text="@string/button_on_text"
+        android:textSize="30sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button_on"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:id="@+id/text_new"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/text_new_text"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/text_forget"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/text_forget_text"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

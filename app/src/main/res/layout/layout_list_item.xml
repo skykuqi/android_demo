@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:paddingLeft="15dp"
+    android:paddingTop="10dp"
+    android:paddingRight="15dp"
+    android:paddingBottom="10dp">
+
+    <ImageView
+        android:id="@+id/layout_list_image"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@color/color_check_false"
+        android:scaleType="centerCrop" />
+
+    <LinearLayout
+        android:id="@+id/layout_list_line"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="10dp">
+
+        <TextView
+            android:id="@+id/layout_list_line_text_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hello"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/layout_list_line_text_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="2011-01-11"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/layout_list_line_text_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="这是内容,一些简单的描述"
+            android:textSize="20sp" />
+    </LinearLayout>
+</LinearLayout>

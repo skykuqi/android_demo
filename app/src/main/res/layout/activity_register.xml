@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_on">
+
+    <TextView
+        android:id="@+id/register_text_on"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="50dp"
+        android:gravity="center_horizontal"
+        android:text="@string/register_text_on_text"
+        android:textSize="30sp" />
+
+    <LinearLayout
+        android:id="@+id/register_line_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/register_text_on"
+        android:layout_marginTop="15dp">
+
+        <EditText
+            android:id="@+id/register_edit_account"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="3"
+            android:hint="@string/edit_account_hint"
+            android:textSize="20sp"
+            android:maxLines="1"/>
+        <!-- android:onClick="showToast" 弹出小黑框,进行提示-->
+        <Button
+            android:id="@+id/register_button_on"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/main_button_selector"
+            android:onClick="showToast"
+            android:text="@string/register_button_on_text" />
+    </LinearLayout>
+
+
+    <EditText
+        android:id="@+id/register_edit_password"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/register_line_text"
+        android:layout_marginTop="10dp"
+        android:hint="@string/edit_password_hint"
+        android:inputType="textPassword"
+        android:textSize="20sp"
+        android:maxLines="1"/>
+
+    <EditText
+        android:id="@+id/register_sure_password"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/register_edit_password"
+        android:layout_marginTop="10dp"
+        android:hint="@string/register_sure_password_text"
+        android:inputType="textPassword"
+        android:textSize="20sp"
+        android:maxLines="1"/>
+
+    <EditText
+        android:id="@+id/register_edit_phone"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/register_sure_password"
+        android:layout_marginTop="10dp"
+        android:hint="@string/register_edit_phone_text"
+        android:textSize="20sp"
+        android:inputType="phone"/>
+
+    <LinearLayout   android:id="@+id/register_yzm_line"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/register_edit_phone"
+        android:layout_marginTop="10dp">
+
+        <EditText
+            android:id="@+id/register_yzm_text"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:hint="@string/register_yzm_text"
+            android:maxLines="1"
+            android:inputType="number"/>
+        <TextView   android:id="@+id/register_getyzm_text"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/register_getyzm_text"
+            android:textSize="20sp"
+            android:gravity="center"
+            />
+    </LinearLayout>
+
+    <Button android:id="@+id/register_button_sure"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/main_button_selector"
+        android:layout_below="@id/register_yzm_line"
+        android:layout_marginTop="10dp"
+        android:text="@string/register_button_sure_text"
+        android:textSize="20sp"/>
+</RelativeLayout>

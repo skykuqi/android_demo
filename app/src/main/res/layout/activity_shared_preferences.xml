@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_on"
+    android:orientation="vertical"
+    android:paddingTop="15dp"
+    android:paddingBottom="15dp"
+    tools:context="com.sky.myapplication.shared.SharedPreferencesActivity">
+
+    <EditText
+        android:id="@+id/shared_preferences_text_write"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入内容"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/shared_preferences_button_save"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/main_button_selector"
+        android:text="保存"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/shared_preferences_button_show"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/main_button_selector"
+        android:text="显示"
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/shared_preferences_text_show"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="即将显示的内容"
+        android:textSize="25sp" />
+
+</LinearLayout>

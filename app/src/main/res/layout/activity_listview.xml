@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_on"
+    android:orientation="vertical">
+    <!--android:listSelector="@drawable/list_item_selector" 设置选中时的效果
+    android:divider=""  边框颜色样式
+    android:dividerHeight=""    高度
+    -->
+    <ListView
+        android:id="@+id/listview_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:listSelector="@drawable/list_item_selector"/>
+
+
+</LinearLayout>

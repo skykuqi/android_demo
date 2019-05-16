@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/main_on">
+    <Button
+        android:id="@+id/toast_btton_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="默 认"
+        android:textSize="25sp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/main_button_selector"/>
+    <Button
+        android:id="@+id/toast_btton_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="改 变 位 置"
+        android:textSize="25sp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/main_button_selector"/>
+    <Button
+        android:id="@+id/toast_btton_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="自 定 义 带 图 片"
+        android:textSize="25sp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/main_button_selector"/>
+    <Button
+        android:id="@+id/toast_btton_4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="使用Toast封装类"
+        android:textSize="25sp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/main_button_selector"/>
+
+
+</LinearLayout>

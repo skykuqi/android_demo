@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_on">
+
+    <RadioGroup
+        android:id="@+id/radio_group_sex"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <!-- android:checked="true" 默认选中状态
+        一旦加入这个属性,必须给每个button设置id,不然会失效-->
+        <RadioButton
+            android:id="@+id/radio_radiobutton_sex_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="男"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/radio_radiobutton_sex_0"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="女"
+            android:textSize="20sp" />
+    </RadioGroup>
+
+    <!--自定义单选按钮样式-->
+    <RadioGroup
+        android:id="@+id/radio_group_city"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/radio_group_sex"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+        <!-- android:checked="true" 默认选中状态
+        一旦加入这个属性,必须给每个button设置id,不然会失效
+
+        android:button="@null"会使其失效-->
+        <RadioButton
+            android:id="@+id/radio_radiobutton_city_1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_weight="1"
+            android:background="@drawable/radio_button_selector"
+            android:button="@null"
+            android:checked="true"
+            android:gravity="center"
+            android:text="长春"
+            android:textSize="20sp"
+            android:layout_marginRight="20dp"/>
+
+        <RadioButton
+            android:id="@+id/radio_radiobutton_city_2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/radio_button_selector"
+            android:button="@null"
+            android:gravity="center"
+            android:text="吉林"
+            android:textSize="20sp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"/>
+    </RadioGroup>
+
+</RelativeLayout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_on"
+    android:orientation="vertical"
+    android:paddingTop="15dp"
+    android:paddingBottom="15dp"
+    tools:context=".ActivityExampleActivity">
+
+    <Button
+        android:id="@+id/activity_example_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/main_button_selector"
+        android:text="跳转回到IndexActivity"
+        android:textAllCaps="false"
+        android:textSize="25sp" />
+    <TextView
+        android:id="@+id/activity_example_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="aaa"
+        android:gravity="center"
+        android:textSize="25sp"/>
+    <Button
+        android:id="@+id/activity_example_button_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/main_button_selector"
+        android:text="带返回结果的跳转"
+        android:layout_marginTop="15dp"
+        android:textAllCaps="false"
+        android:textSize="25sp" />
+    <Button
+        android:id="@+id/activity_example_button_again"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/main_button_selector"
+        android:text="再次跳转本页面"
+        android:layout_marginTop="15dp"
+        android:textAllCaps="false"
+        android:textSize="25sp" />
+
+</LinearLayout>

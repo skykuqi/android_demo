@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_on"
+    android:orientation="vertical"
+    android:paddingTop="15dp"
+    android:paddingBottom="15dp"
+    tools:context="com.sky.myapplication.listener.ListenerActivity">
+
+    <Button
+        android:id="@+id/listener_button_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/main_button_selector"
+        android:text="通过内部类实现点击事件"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/listener_button_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/main_button_selector"
+        android:text="通过事件源所在类实现点击事件"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/listener_button_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/main_button_selector"
+        android:text="通过外部类实现点击事件"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/listener_button_4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/main_button_selector"
+        android:onClick="show"
+        android:text="通过布局文件属性实现点击事件"
+        android:textSize="25sp" />
+
+    <com.sky.myapplication.listener.MyButton
+        android:id="@+id/listener_button_5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/main_button_selector"
+        android:text="回调:自定义MyButton"
+        android:textSize="25sp" />
+</LinearLayout>
